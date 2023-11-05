@@ -16,6 +16,7 @@ public class UserManager implements UserService {
         this.users = users;
     }
 
+
     @Override
     public List<User> getall() {
         return users.getall();
